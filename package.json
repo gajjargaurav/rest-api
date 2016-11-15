@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run build && node ./build/server.js",
     "build": "babel src -d build --copy-files",
-    "test": "mocha ./build/test"
+    "test": "npm run build && mocha ./build/test"
   },
   "repository": {
     "type": "git",
