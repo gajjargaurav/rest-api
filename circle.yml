@@ -1,3 +1,6 @@
+dependencies:
+  post:
+    - npm run build
 test:
   override:
     - mocha ./build/test
